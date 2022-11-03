@@ -20,7 +20,7 @@
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
   <link href="style.css" rel="stylesheet">
-  <script src="js.js"></script>
+  <!-- <script src="js.js"></script> -->
 
     <style>
     /* 
@@ -44,10 +44,10 @@
 </head>
 <body>
 
-<div class="container p-5 bg-dark text-white text-center">
-  <h1>Preview Page</h1>
-  <p class="description">Put our name here to show our love!</p> 
-</div>
+  <div class="container p-4 bg-dark text-white text-center">
+    <h1 class="pacifico putih">Taman Hati</h1>
+    <p class="description lovers-quarrel putih">Put our name here to showing our love!</p> 
+  </div>
   
 <div class="container mt-2">
   <div class="row">
@@ -287,7 +287,7 @@
     </table>
 
     <label for="result-text" class="form-label h3">Result</label>
-    <textarea class="form-control" id="result-text" rows="5"></textarea>
+    <textarea class="form-control" id="result-text" rows="6"></textarea>
     <span id="copy"></span>
     <button type="button" class="btn btn-primary mt-2" onclick="copyfunc()">copy result</button>
 
@@ -298,7 +298,7 @@
 <script>
 $(document).ready(function(){
 
-  var tulis,fontfalimly,backgroundclr,textcolor,fontsize;
+  var tulis,fontfalimly,backgroundclr,textcolor,fontsize,bilangan_char;
 
   textcolor = 'hitam'
   
@@ -339,6 +339,13 @@ $(document).ready(function(){
     // console.log(backgroundclr);
     // console.log(textcolor);
 
+    bilangan_char =  tulis.replace(/\s/g, "").length;
+    harga = parseInt(bilangan_char) * 0.35;
+    harga = parseFloat(harga).toFixed(2);
+
+    // console.log(bilangan_char);
+
+
     $('#preview-card').attr('class', 'fixonscroll card ' + fontfalimly + ' ' + backgroundclr + ' ' + textcolor);
     $('#textkotak').attr('class', 'card-body text-center fonts ' + fontsize);
 
@@ -348,6 +355,7 @@ $(document).ready(function(){
     $('#result-text').append("\nsize: "+ ' ' + fontsize);
     $('#result-text').append("\ncolour: "+ ' ' + textcolor);
     $('#result-text').append("\nbackground: "+ ' ' + backgroundclr);
+    $('#result-text').append("\nRM: "+ ' ' + harga);
   }
 
 
@@ -367,7 +375,7 @@ function copyfunc() {
     
     // Alert the copied text
     // alert("Copied the text: " + copyText.value);
-    $('#copy').html("<span style='color:green'>copied!</span>");
+    $('#copy').html("<span style='color:blue'>copied!</span>");
     // console.log('aaa')
   }
 
