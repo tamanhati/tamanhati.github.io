@@ -1,0 +1,210 @@
+body {
+    /* font-family: 'Pacifico',serif; */
+    font-family: 'Lato',serif;
+    background-color: aquamarine;
+}
+
+.description{
+    font-family: 'Lato',serif;
+}
+
+@keyframes biru_hitam {
+    0% {background-color: #0d6efd;}
+    50% {background-color: #000;}
+    100% {background-color: #0d6efd;}
+}
+
+@keyframes hijau_merah {
+    0% {background-color: #48af76;}
+    50% {background-color: #ec5151;}
+    100% {background-color: #48af76;}
+}
+
+@keyframes kuning_merah {
+    0% {background-color: #d4d11b;}
+    50% {background-color: #7f81f7;}
+    100% {background-color: #d4d11b;}
+}
+
+@keyframes purple_hijau {
+    0% {background-color: #c7e8f3;}
+    50% {background-color: #eda2c0;}
+    100% {background-color: #c7e8f3;}
+}
+
+@keyframes teal_blue {
+    0% {background-color: #34f6f2;}
+    50% {background-color: #7d53de;}
+    100% {background-color: #34f6f2;}
+}
+
+@keyframes kuning_oren {
+    0% {background-color: #ffe1a8;}
+    50% {background-color: #e26d5c;}
+    100% {background-color: #ffe1a8;}
+}
+
+@keyframes blue_kuning {
+    0% {background-color: #e56399;}
+    50% {background-color: #320e3b;}
+    100% {background-color: #e56399;}
+}
+
+/* ############################## */
+
+.empty{
+    font-family: 'Lato', serif;
+    font-size: 40px;
+    color: #c5c5c5;
+    background-color: #e9ecef;
+    /* animation: biru_hitam 10s infinite; */
+}
+
+.love-by-the-king{
+    font-family: 'Loved by the King', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.lato{
+    font-family: 'Lato', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.love-ya-like-a-sister{
+    font-family: 'Love Ya Like A Sister', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.lovers-quarrel{
+    font-family: 'Lovers Quarrel', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.pacifico{
+    font-family: 'Pacifico', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.kaushan-script{
+    font-family: 'Kaushan Script', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.indie-flower{
+    font-family: 'Indie Flower', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.patrick-hand-sc{
+    font-family: 'Patrick Hand SC', serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+
+/* ################################################# */
+
+.p_biru_hitam{
+    animation: biru_hitam 10s infinite;
+}
+
+.p_hijau_merah{
+    animation: hijau_merah 10s infinite;
+}
+
+.p_kuning_merah{
+    animation: kuning_merah 10s infinite;
+}
+
+.p_purple_hijau{
+    animation: purple_hijau 10s infinite;
+}
+
+.p_teal_blue{
+    animation: teal_blue 10s infinite;
+}
+
+.p_kuning_oren{
+    animation: kuning_oren 10s infinite;
+}
+
+.p_blue_kuning{
+    animation: blue_kuning 10s infinite;
+}
+
+/* ################################################# */
+
+.putih{
+    color: aliceblue;
+}
+.hitam{
+    color: #161616;
+}
+/* ################################################# */
+
+.f48{
+    font-size: 48px;
+}
+.f47{
+    font-size: 47px;
+}
+.f42{
+    font-size: 42px;
+}
+/* ################################################# */
+
+.abc123{
+    font-family: 'Loved by the King', serif;
+    font-size: 48px;
+    color: aliceblue;
+    animation: biru_hitam 10s infinite;
+}
+
+.def123{
+    font-family: 'Love Ya Like A Sister', serif;
+    font-size: 47px;
+    color: aliceblue;
+    animation: hijau_merah 10s infinite;
+}
+
+.ghi123{
+    font-family: 'Lovers Quarrel', serif;
+    font-size: 42px;
+    color: #161616;
+    animation: kuning_merah 10s infinite;
+}
+
+.jkl123{
+    font-family: 'Kaushan Script', serif;
+    font-size: 42px;
+    color: #161616;
+    animation: purple_hijau 10s infinite;
+}
+
+.abc456{
+    font-family: 'Indie Flower', serif;
+    font-size: 42px;
+    color: #161616;
+    animation: teal_blue 10s infinite;
+}
+
+.abc789{
+    font-family: 'Patrick Hand SC', serif;
+    font-size: 42px;
+    color: #161616;
+    animation: kuning_oren 10s infinite;
+}
+
+.def456{
+    font-family: 'Patrick Hand SC', serif;
+    font-size: 42px;
+    color: aliceblue;
+    animation: blue_kuning 10s infinite;
+}
